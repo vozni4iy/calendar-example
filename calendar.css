@@ -1,0 +1,48 @@
+.calendar__main {
+  width: 210px;
+}
+
+.calendar__header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.week__days {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cell {
+  width: 30px;
+  text-align: left;
+}
+
+.valid__day {
+  cursor:pointer;
+}
+
+.forbidden__day {
+  color: red;
+  cursor:text;
+}
+
+.current__day {
+  color: blue;
+}
+
+.current__week {
+  display: flex;
+  justify-content: space-between;
+}
+
+.current__month {
+  font-weight: bold;
+}
+
+.selected__date {
+  color: blue;
+}
+
+.no__visible {
+  display: none;
+}
